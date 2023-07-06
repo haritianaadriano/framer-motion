@@ -1,6 +1,6 @@
 [build]
 command = "npm run build"
-publish = ".next"
+publish = "out"
 # Configuration du cache de construction
 [build.environment]
   NODE_MODULES_CACHE = "true"
