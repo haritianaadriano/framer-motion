@@ -1,6 +1,7 @@
 [build]
 command = "npm run build"
-publish = "public"
+publish = ".next"
 # Configuration du cache de construction
 [build.environment]
   NODE_MODULES_CACHE = "true"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
